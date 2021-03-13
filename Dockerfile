@@ -2,6 +2,7 @@ FROM ubuntu
 # 签名
 MAINTAINER saymagic "saymagic@163.com"
 
+
 # 安装JDK与nginx
 RUN apt-get update
 RUN apt-get install oracle-java8-installer
