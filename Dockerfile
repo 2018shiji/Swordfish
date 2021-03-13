@@ -4,8 +4,7 @@ MAINTAINER saymagic "saymagic@163.com"
 
 # 安装JDK与nginx
 RUN apt-get update
-RUN apt-get install openjdk-7-jre -y
-RUN apt-get install openjdk-7-jdk -y
+RUN apt-get install oracle-java8-installer
 RUN apt-get install nginx -y
 
 #拷贝nginx配置文件

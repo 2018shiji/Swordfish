@@ -1,4 +1,4 @@
-image: daocloud/ci-java:oraclejdk7
+image: daocloud/ci-java:oraclejdk8
 
 services:
 
